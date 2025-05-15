@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="icon/bee-icon-png-18.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Música, Banda Enjambre, Canciones, Álbumes">
+    <title>Mi portafolio personal</title>
+</head>
+<body>
+    <header>
+        <h1>Alison Solange Acuña Valverde</h1> <!--Nombre del estudiante-->
+        <p>La seguridad no solo está en el sistema, sino en la confianza en tus conocimientos.</p> <!--Lema de la empresa o pagina-->
+        <img src="icon/IMG_20240116_150757.jpg" alt="Imagen del Autor"> <!--Imagen personal-->
+        <!--Menú de Navegación-->
+        <nav> 
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#intereses">Intereses</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr/>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección "Sobre Mí": Breve descripción personal -->
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>
+                <mark>Bienvenido a mi primera página web en html.</mark> Soy estudiante de Tercer semestre,<em> paralelo "A"</em>, 
+                sección Matutina de la <strong>carrera de Sistemas de Información</strong> en la <em>Universidad Técnica de Babahoyo</em>, 
+                tengo 19 años y nací en la ciudad de <mark>Quito</mark>, soy una persona que se preocupa mucho por los detalles aunque me distraiga con facilidad. 
+            </p>
+        </section>
+        <!-- Sección "Intereses": Lista de intereses o logros -->
+        <section id="intereses">
+            <h2>Intereses o logros</h2>
+            <ul>
+                <li>Me gusta mucho una banda llamada Enjambre de la cual hablaremos en esta página.</li>
+                <li>Me gustan los gatos, los videojuegos, tejer y dibujar. </li>
+                <li>Me interesa la programación orientada a objetos y me gustaria hacer una especialización en esa área.</li>
+                <li>Me gradue en bachillerato en ciencias en Loja.</li>
+                <li>Me dieron una beca en la Universidad de Babahoyo y me compre una moto eléctrica.</li>
+            </ul>
+        </section>
+        <!-- Sección "Habilidades": Tabla de habilidades -->
+        <section id="habilidades">
+         <h2>Habilidades</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Nivel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Básico</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Intermedio</td>
+                    </tr>
+                    <tr>
+                        <td>PseInt</td>
+                        <td>Avanzado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- Sección "Multimedia": Video de presentación personal -->
+        <section id="multimedia">
+            h2>Multimedia</h2>
+            <h2>Audio de presentación personal:</h2>
+            <audio controls src="audios/WhatsApp Ptt 2025-05-14 at 7.54.17 PM.ogg"></audio>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+              <label for="nombre">Nombre:</label><br>
+              <input type="text" id="nombre" name="nombre" required><br><br>
+
+              <label for="correo">Correo:</label><br>
+              <input type="email" id="correo" name="correo" required><br><br>
+              
+              <label for="edad">Edad:</label><br>
+              <input type="number" id="edad" name="edad" required><br><br>
+              
+              <label for="genero">Género:</label><br>
+              <select id="genero" name="genero">
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+                <option value="otro">Otro</option>
+              </select><br><br>
+              
+              <label for="intereses">Intereses:</label><br>
+              <textarea id="intereses" name="intereses" rows="3" required></textarea><br><br>
+              
+              <label for="comentarios">Comentarios:</label><br>
+              <textarea id="comentarios" name="comentarios" rows="5"></textarea><br><br>
+              
+              <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados.</p>
+        <p>
+            Sígueme en:
+            <a href="https://www.facebook.com/profile.php?id=100060792795411" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/calcetinmojado_/" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
