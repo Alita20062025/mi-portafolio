@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <link rel="icon" href="icon/bee-icon-png-18.jpg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Música, Banda Enjambre, Canciones, Álbumes">
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Mi portafolio personal</title>
 </head>
 <body>
     <header>
         <h1>Alison Solange Acuña Valverde</h1> <!--Nombre del estudiante-->
         <p>La seguridad no solo está en el sistema, sino en la confianza en tus conocimientos.</p> <!--Lema de la empresa o pagina-->
-        <img src="icon/IMG_20240116_150757.jpg" alt="Imagen del Autor"> <!--Imagen personal-->
+        <img src="icon/WhatsApp Image 2025-06-11 at 8.44.06 PM.jpeg" alt="Imagen del Autor"> <!--Imagen personal-->
         <!--Menú de Navegación-->
         <nav> 
             <ul>
@@ -29,21 +30,35 @@
         <!-- Sección "Sobre Mí": Breve descripción personal -->
         <section id="sobre-mi">
             <h2>Sobre Mí</h2>
-            <p>
-                <mark>Bienvenido a mi primera página web en html.</mark> Soy estudiante de Tercer semestre,<em> paralelo "A"</em>, 
-                sección Matutina de la <strong>carrera de Sistemas de Información</strong> en la <em>Universidad Técnica de Babahoyo</em>, 
-                tengo 19 años y nací en la ciudad de <mark>Quito</mark>, soy una persona que se preocupa mucho por los detalles aunque me distraiga con facilidad. 
-            </p>
+            <blockquote>
+                <p>
+                    <strong>Bienvenido a mi primera página web en HTML.</strong> Soy <strong>Alison Solange Acuña Valverde</strong>, actualmente 
+                    <mark>estudiante de <em>tercer semestre</em> de la carrera de <em>Sistemas de Información</em> en la <strong>Universidad Técnica de Babahoyo</strong>.</mark>
+                </p>
+                <p>
+                    Este portafolio forma parte de mi microproyecto para la asignatura <strong>Desarrollo Basado en Plataformas</strong>, donde aplico mis conocimientos en 
+                    <strong>HTML5</strong>, <strong>CSS</strong> y <strong>JavaScript</strong> para construir sitios web funcionales y visualmente atractivos. 
+                </p>
+                <p>
+                    Me considero una persona <em>detallista</em>, <em>creativa</em> y comprometida con mi aprendizaje. 
+                    Busco <mark>integrar distintos enfoques técnicos</mark> para desarrollar soluciones innovadoras que reflejen tanto mi crecimiento académico 
+                    como mi identidad profesional.
+                </p>
+                <p>
+                    <small>Esta introducción forma parte de un proyecto académico en desarrollo.</small>
+                </p>
+            </blockquote>
+
         </section>
         <!-- Sección "Intereses": Lista de intereses o logros -->
         <section id="intereses">
-            <h2>Intereses o logros</h2>
+            <h2>Intereses y Logros</h2>
             <ul>
-                <li>Me gusta mucho una banda llamada Enjambre de la cual hablaremos en esta página.</li>
-                <li>Me gustan los gatos, los videojuegos, tejer y dibujar. </li>
-                <li>Me interesa la programación orientada a objetos y me gustaria hacer una especialización en esa área.</li>
-                <li>Me gradue en bachillerato en ciencias en Loja.</li>
-                <li>Me dieron una beca en la Universidad de Babahoyo y me compre una moto eléctrica.</li>
+                <li>Me gusta mucho escuchar música.</li>
+                <li>Me gustan los gatos, tejer, dibujar y programar. </li>
+                <li>Me interesa el desarrollo de plataformas web y me gustaria hacer una especialización en esa área.</li>
+                <li>Me gradue en bachillerato en ciencias en la ciudad de Loja.</li>
+                <li>Obtuve una beca en la Universidad de Babahoyo y me compre una moto eléctrica para ir a la universidad.</li>
             </ul>
         </section>
         <!-- Sección "Habilidades": Tabla de habilidades -->
@@ -58,16 +73,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>HTML5</td>
-                        <td>Básico</td>
+                        <td>PseInt</td>
+                        <td>Avanzado</td>
                     </tr>
                     <tr>
                         <td>Java</td>
                         <td>Intermedio</td>
                     </tr>
                     <tr>
-                        <td>PseInt</td>
-                        <td>Avanzado</td>
+                        <td>HTML5</td>
+                        <td rowspan="2">Básico</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
                     </tr>
                 </tbody>
             </table>
@@ -109,12 +127,16 @@
     </main>
     <!-- Pie de página -->
     <footer>
-        <p>&copy; 2025 Todos los derechos reservados.</p>
-        <p>
-            Sígueme en:
-            <a href="https://www.facebook.com/profile.php?id=100060792795411" target="_blank">Facebook</a> |
-            <a href="https://www.instagram.com/calcetinmojado_/" target="_blank">Instagram</a>
-        </p>
+        <p>&copy; 2025 Todos los derechos reservados. Alison Acuña.</p>
+        <p>Sígueme en:</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/profile.php?id=100060792795411" target="_blank" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/calcetinmojado_/" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+        </div>
     </footer>
 </body>
 </html>
